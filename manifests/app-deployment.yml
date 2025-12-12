@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: kiranreddy678/app:appimage
+          image: kiranreddy678/new:oneapp
           ports:
             - containerPort: 8080
       imagePullSecrets:
