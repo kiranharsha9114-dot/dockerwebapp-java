@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: kiranreddy678/app:dbimage
+          image: kiranreddy678/new:twodb
           ports:
             - containerPort: 3306
       imagePullSecrets:
